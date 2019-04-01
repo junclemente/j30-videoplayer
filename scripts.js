@@ -51,13 +51,15 @@ function scrub(e) {
 
 
 function toggleFullScreen() {
-    console.log({player});
-    if (!document.fullscreen) {
-        player.requestFullscreen();
-        full.innerText = "✕";
-    } else {
+    if (document.fullscreenEnabled) {
+        if (!document.fullscreen) {
+            player.requestFullscreen();
+            full.innerText = "✕";
+        } else {
+        // document.exitFullscreen();
         document.exitFullscreen();
         full.innerText = "☐";
+        }
     }
 }
 
