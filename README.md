@@ -12,4 +12,8 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
-
+* `HTML5 Video` - Worked with HTML5 Video control attributes
+* `video.play() | video.pause()` - Used JavaScript to determine state and play/pause a video in HTML5
+* `video.currentTime | video.duration` - Used JavaScript to animate a scrub bar by determining the percent played of the video and to forward/reverse to a location by using the mouse
+* `video[volume] and video[playbackRate]` - Used a sliding dial and JavaScript to adjust the volume of the video and the playback speed rate
+* `document.fullscreenEnabled` - Worked with using and closing fullscreen use of video with `document.fullscreenEnabled`, `player.requestFullscreen`, and `document.exitFullscreen()`. 
